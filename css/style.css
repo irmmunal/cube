@@ -1,0 +1,171 @@
+button {
+    background-color: transparent;
+    border: 1px solid #636363;
+    color: #6c757d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.nav-link {
+    font-size: 1.3rem !important;
+}
+
+.bg-hero {
+    background-color: #F5F5F5;
+}
+
+.play-button {
+    background-color: #000;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.image-size {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image-size img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.image-size:hover img {
+transform: scale(1.1);
+}
+
+.menu-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-demo button.menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: unset;
+        border: 0;
+        font-size: 26px;
+        display: block;
+        padding: 23px;
+        color: #fff;
+        outline: none;
+    }
+
+    .navbar-demo {
+        height: 100%;
+        z-index: 999;
+    }
+
+    .navbar-demo .nav-bar {
+        left: -950px;
+        background-color: #000000d9;
+        transition: 1s;
+        height: 100%;
+    }
+
+    .navbar-demo.open-nav .nav-bar {
+        left: 0;
+        width: 100%;
+        transition: left 0.5s;
+        height: 100%;
+    }
+
+    .navbar-demo .nav-bar ul li a {
+        display: block;
+        color: #fff;
+    }
+
+    .navbar-demo.open-nav button.menu-btn i:before {
+        content: '\f00d ';
+    }
+}
+
+.fs-8 {
+    font-size: 4rem !important;
+}
+
+.color-green {
+    color:#3aa855;
+}
+
+.color-blue {
+    color: #335eea;
+}
+
+
+.nav-item a:hover {
+    color: #3aa855 !important;
+    font-weight: bold;
+}
+.deneme{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.py-xl-20 {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+
+.py-15 {
+    padding-top: 7.5rem !important;
+    padding-bottom: 7.5rem !important;
+}
+
+.form-label {
+    margin-bottom: 0.25rem !important;
+    font-size: .875rem !important;
+    color: #555 !important;
+}
+
+.form-control {
+    padding: 1rem 0.75rem !important;
+
+}
+
+button:hover {
+    background-color: #3aa855;
+    color: #fff;
+    transition: all 0.1s ease-in-out;
+}
+
+button img:hover {
+    color: #fff;
+}
+
+.img-hvr:hover {
+    cursor: pointer;
+}    
+
+.img-top {
+    position: relative;
+    display: flex;
+   
+}
+.img-top .img-hvr{
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+.img-top:hover .img-hvr {
+    display: inline;
+}
+
+

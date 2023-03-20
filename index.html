@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicon/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div
+            class="row d-flex flex-warp align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+            <div class="col-2">
+                <a href="index.html">
+                    <img src="assets/CUBE.png" alt="">
+                </a>
+            </div>
+            <div class="col-8 navbar-demo">
+                <!-- <nav class="nav-bar d-none d-sm-block">
+                    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-3 link-secondary">Landings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-3 link-secondary">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-3 link-secondary">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link dropdown-toggle show px-3 link-secondary" role="button" data-bs-toggle="dropdown" aria-expanded="true" >Shop</a>
+                            <ul class="dropdown-menu dropdown-menu-detailed" aria-labelledby="navbarDropdown-5">
+                                <li><a class="dropdown-item " href="./docs/index.html">
+                                    <span>
+                                      <i class="bi bi-book"></i>
+                                      Get Started
+                                      <small>Customising and building</small>
+                                    </span>
+                                  </a>
+                                </li>
+                                <li><a class="dropdown-item " href="./docs/accordion.html">
+                                    <span>
+                                      <i class="bi bi-grid"></i>
+                                      Components
+                                      <small>Full list of components</small>
+                                    </span>
+                                  </a>
+                                </li>
+                              </ul>
+                        </li>
+                    </ul>
+                </nav> -->
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Landings</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Account</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                
+                        </ul>
+        
+                      </div>
+                    </div>
+                  </nav>
+
+                <button type="" class="menu-btn"><i class="fa fa-bars text-black" aria-hidden="true"></i></button>
+            </div>
+
+
+            <div class="col-2 text-end d-none d-sm-block">
+                <button type="button" class="rounded-pill">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section -->
+
+    <section class="py-3 py-md-1 border-bottom">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/Tech Life Remote Life.svg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Tech Life Blockchain.svg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/Tech Life Media.svg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 mt-5 order-md-1">
+                    <h1 class="display-3 text-center text-md-start fw-bold">
+                        A better workflow
+                        <br>
+                        for your company.
+                    </h1>
+                    <p class="lead text-center text-md-start text-muted mt-5 mb-6 mb-lg-8">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <br>
+                        Ipsum dolore provident corrupti consectetur.
+                    </p>
+                    <div class="text-center text-md-start mt-5">
+                        <button href="#" class="rounded-pill fs-4">Get Started
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- brands -->
+
+    <section class="py-3 py-md-11 border-bottom bg-hero">
+        <div class="container">
+            <div class="row align-items-center justify-content-center mb-5 mt-5">
+                <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0 img-top">
+                    <img src="assets/spotify.svg" class="img-hdn" class="img-hdn" alt="">
+                    <img src="assets/spotify-green.svg" class="img-hvr" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0 img-top">
+                    <img src="assets/spotify.svg" class="img-hdn" alt="">
+                    <img src="assets/spotify-green.svg" class="img-hvr" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0 img-top">
+                    <img src="assets/spotify.svg" class="img-hdn" alt="">
+                    <img src="assets/spotify-green.svg" class="img-hvr" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0 img-top">
+                    <img src="assets/spotify.svg" class="img-hdn" alt="">
+                    <img src="assets/spotify-green.svg" class="img-hvr" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0 img-top">
+                    <img src="assets/spotify.svg" class="img-hdn" alt="">
+                    <img src="assets/spotify-green.svg" class="img-hvr" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0 img-top">
+                    <img src="assets/spotify.svg" class="img-hdn" alt="">
+                    <img src="assets/spotify-green.svg" class="img-hvr" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- hero section -->
+
+    <section class="py-5 py-md-5 border-bottom bg-hero">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-5 col-lg-6 order-md-1">
+                    <img src="img/Tech Life Communication.svg" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0"
+                        alt="">
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 mt-5 order-md-2">
+                    <h1 class="display-3 text-center text-md-start fw-bold">
+                        <span class="color-green">Start</span> getting bigger
+                        <br>
+                        numbers today.
+                    </h1>
+                    <p class="lead text-center text-md-start text-muted mt-5 mb-6 mb-lg-8">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <br>
+                        Ipsum dolore provident corrupti consectetur.
+                    </p>
+                    <p class="lead text-center text-md-start text-muted mt-2 mb-6 mb-lg-8">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- video section -->
+
+    <section class="py-5 py-md-5 bg-black">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-12">
+                    <h2 class="display-4 text-center text-white pb-5">
+                        Start getting bigger
+                        <br>
+                        numbers today.
+                    </h2>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="position-relative align-items-center d-flex justify-content-center image-size">
+                        <img src="img/pexels-shvets-production-7203700 1.png" class="image-fluid responsive" alt="">
+                        <a href="https://www.youtube.com/watch?v=jLL8RbgaEGw" target="_blank" class="play-button">
+                            <i class="fa-solid fa-play text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="lead text-center text-white opacity-50 mt-5 mb-6 mb-lg-8">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <br>
+                        Ipsum dolore provident corrupti consectetur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- percent -->
+
+    <section class="py-5 py-md-5">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-12">
+                    <h2 class="display-4 text-center text-black fw-bold pb-5">
+                        Don't trust us.
+                        <br>
+                        <span class="color-blue">Trust</span> our numbers.
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-7 border p-5">
+                        <div class="d-flex align-items-end">
+                            <h5 class="fs-8 mb-0 me-2 lh-1 fw-bold">18.5%</h5>
+                            <p> guaranteed revenue growth</p>
+                        </div>
+                    </div>
+                    <div class="col-5 border p-5">
+                        <div class="d-flex align-items-end">
+                            <h5 class="fs-8 mb-0 me-2 lh-1 fw-bold">224</h5>
+                            <p> curently active clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5 border p-5">
+                        <div class="d-flex align-items-end">
+                            <h5 class="fs-8 mb-0 me-2 lh-1 fw-bold">10</h5>
+                            <p>finished projects</p>
+                        </div>
+                    </div>
+                    <div class="col-7 border p-5">
+                        <div class="d-flex align-items-end">
+                            <h5 class="fs-8 mb-0 me-2 lh-1 fw-bold">99.9%</h5>
+                            <p>of our clients are returning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+
+    <section class="py-3 py-md-1 border-bottom">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2">
+                    <img src="img/Tech Life Life Management.svg" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0"
+                        alt="">
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 mt-5 order-md-1">
+                    <h1 class="display-3 text-center text-md-start fw-bold my-5">
+                        Start writing <span class="color-green">clean</span>
+                        <br>
+                        and optimized code.
+                    </h1>
+                    <p class="lead text-center text-md-start text-muted mt-5 mb-6 mb-lg-8">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <br>
+                        Ipsum dolore provident corrupti consectetur.
+                    </p>
+                    <p class="lead text-center text-md-start text-muted mt-2 mb-6 mb-lg-8">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- price -->
+
+    <section class="bg-black inverted deneme">
+        <div class="container">
+            <div class="row align-items-end g-4 g-lg-0  bg-black">
+                <div class="col-xl-3 d-none d-xl-block">
+                    <div class="card border-0">
+                        <div class="bg-black">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item ps-0 py-3 bg-black text-white">Unlimited Viewers</li>
+                                <li class="list-group-item ps-0 py-3 bg-black text-white">Editors</li>
+                                <li class="list-group-item ps-0 py-3 bg-black text-white">Multiplayer</li>
+                                <li class="list-group-item ps-0 py-3 bg-black text-white">Developer handoff</li>
+                                <li class="list-group-item ps-0 py-3 bg-black text-white">Support</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 ">
+                    <div class="card border border-white">
+                        <div class="card-body mb-2">
+                            <h3 class="lead">Small</h3>
+                            <span class="h1 fw-fold mb-2">$49</span>
+                            <p class="text-secondary">Our basic version for teams that are just getting started</p>
+
+                            <div class="text-center text-md-start">
+                                <button href="#" class="rounded-pill fs-4">Buy Now
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div class="bg-black">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item ps-0 py-3">Unlimited Viewers</li>
+                                <li class="list-group-item ps-0 py-3 ">Editors</li>
+                                <li class="list-group-item ps-0 py-3  ">Multiplayer</li>
+                                <li class="list-group-item ps-0 py-3  ">Developer handoff</li>
+                                <li class="list-group-item ps-0 py-3 ">Support</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card border border-white">
+                        <div class="card-body mb-2">
+                            <h3 class="lead">Medium</h3>
+                            <span class="h1 fw-fold mb-2">$149</span>
+                            <p class="text-secondary">Our basic version for teams that are just getting started</p>
+
+                            <div class="text-center text-md-start">
+                                <button href="#" class="rounded-pill fs-4">Buy Now
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div class="bg-black">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item ps-0 py-3">Unlimited Viewers</li>
+                                <li class="list-group-item ps-0 py-3 ">Editors</li>
+                                <li class="list-group-item ps-0 py-3  ">Multiplayer</li>
+                                <li class="list-group-item ps-0 py-3  ">Developer handoff</li>
+                                <li class="list-group-item ps-0 py-3 ">Support</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="card border border-white">
+                        <div class="card-body mb-2">
+                            <h3 class="lead">Large</h3>
+                            <span class="h1 fw-fold mb-2">$249</span>
+                            <p class="text-secondary">Our basic version for teams that are just getting started</p>
+
+                            <div class="text-center text-md-start">
+                                <button href="#" class="rounded-pill fs-4">Buy Now
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div class="bg-black">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item ps-0 py-3">Unlimited Viewers</li>
+                                <li class="list-group-item ps-0 py-3 ">Editors</li>
+                                <li class="list-group-item ps-0 py-3  ">Multiplayer</li>
+                                <li class="list-group-item ps-0 py-3  ">Developer Handoff</li>
+                                <li class="list-group-item ps-0 py-3 ">Support</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact -->
+
+    <section class="py-5 py-xl-20 border-bottom">
+        <div class="container">
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8 col-xl-6">
+                    <h2 class="fw-bold fs-8 mb-6">Let's make something big. <br>Together.</h2>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="youName" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="yourName" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="yourCompany" class="form-label">Your Company</label>
+                            <input type="text" class="form-control" id="yourCompany" placeholder="Your Company">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="yourMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="yourMessage" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-md-8 mt-4">
+                            <button href="#" class="rounded-pill fs-4">Get Started
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="py-15 py-xl-20 border-top">
+        <div class="container">
+            <div class="row justify-content-between g-5 mb-5 mb-lg-10">
+                <div class="col-lg-4">
+                    <a href="#" class="navbar-brand">
+                        <img src="assets/CUBE.png" alt="">
+                    </a>
+                    <p class="mt-2 text-muted pe-lg-5">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-3 g-xl-5">
+                        <div class="col-6 col-md-4">
+                            <span class="eyebrow text-muted mb-1 d-flex">Menu</span>
+                            <ul class="list-unstyled">
+                                <li class="mb-1"><a href="" class="text-reset">documentation</a></li>
+                                <li class="mb-1"><a href="" class="text-reset">components</a></li>
+                                <li class="mb-1"><a href="" class="text-reset">roadmap</a></li>
+                                <li class="mb-1"><a href="" class="text-reset">blocks</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <span class="eyebrow text-muted mb-1 d-flex">Follow Us</span>
+                            <ul class="list-unstyled">
+                                <li class="mb-1"><a href="" class="text-reset"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                                            <path
+                                                d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z">
+                                            </path>
+                                            <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                                            <path
+                                                d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z">
+                                            </path>
+                                        </svg></a></li>
+                                <li class="mb-1"><a href="" class="text-reset"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)">
+                                            <path
+                                                d="M7.803 5.731c.589 0 1.119.051 1.605.155.483.103.895.273 1.243.508.343.235.611.547.804.939.187.387.28.871.28 1.443 0 .62-.14 1.138-.421 1.551-.283.414-.7.753-1.256 1.015.757.219 1.318.602 1.69 1.146.374.549.557 1.206.557 1.976 0 .625-.119 1.162-.358 1.613a3.11 3.11 0 0 1-.974 1.114 4.315 4.315 0 0 1-1.399.64 6.287 6.287 0 0 1-1.609.206H2V5.731h5.803zm-.351 4.972c.48 0 .878-.114 1.192-.345.312-.228.463-.604.463-1.119 0-.286-.051-.522-.151-.707a1.114 1.114 0 0 0-.417-.428 1.683 1.683 0 0 0-.597-.215 3.609 3.609 0 0 0-.697-.061H4.71v2.875h2.742zm.151 5.239c.267 0 .521-.023.76-.077.241-.052.455-.136.637-.261.182-.12.332-.283.44-.491.109-.206.162-.475.162-.798 0-.634-.179-1.085-.533-1.358-.355-.27-.831-.404-1.414-.404H4.71v3.39h2.893zm8.565-.041c.367.358.896.538 1.584.538.493 0 .919-.125 1.278-.373.354-.249.57-.515.653-.79h2.155c-.346 1.072-.871 1.838-1.589 2.299-.709.463-1.572.693-2.58.693-.702 0-1.334-.113-1.9-.337a4.033 4.033 0 0 1-1.439-.958 4.37 4.37 0 0 1-.905-1.485 5.433 5.433 0 0 1-.32-1.899c0-.666.111-1.289.329-1.864a4.376 4.376 0 0 1 .934-1.493c.405-.42.885-.751 1.444-.994a4.634 4.634 0 0 1 1.858-.362c.754 0 1.413.146 1.979.44a3.967 3.967 0 0 1 1.39 1.182c.363.493.622 1.058.783 1.691.161.632.217 1.292.171 1.983h-6.431c.001.704.238 1.371.606 1.729zm2.812-4.681c-.291-.322-.783-.496-1.385-.496-.391 0-.714.065-.974.199a1.97 1.97 0 0 0-.62.491 1.772 1.772 0 0 0-.328.628 2.82 2.82 0 0 0-.111.587h3.982c-.058-.624-.272-1.085-.564-1.409zm-3.918-4.663h4.989v1.215h-4.989z">
+                                            </path>
+                                        </svg></a></li>
+                                <li class="mb-1"><a href="" class="text-reset"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                                            </path>
+                                        </svg></a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <span class="eyebrow text-muted mb-1 d-flex">Docs</span>
+                            <ul class="list-unstyled">
+                              <li class="mb-1"><a href="" class="text-reset">Get Started</a></li>
+                              <li class="mb-1"><a href="" class="text-reset">Components</a></li>
+                              <li class="mb-1"><a href="" class="text-reset">Changelog</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"></script> -->
+</body>
+
+</html>
